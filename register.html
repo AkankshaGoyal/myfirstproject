@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Form For Innerwork Solution Private limited</title>
+<style>
+body{
+  background:  white;
+}@media screen and (min-width: 480px) {
+}
+h1{
+  font-family:cursive; 
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  float: left;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-color: black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=phone],select{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color:black;
+}
+
+input[type=Submit]:hover{
+  background-color: grey;
+}
+form {
+   font-family: cursive;
+   font-color:solid;
+   font-size:20px;
+   box-sizing: border-box;
+   padding:50px;
+ }
+</style>
+</head>
+<h1> Internship Registeration form for Innerwork Solution  Private Limited</h1>
+<body>
+<center><img src="image\innerwork.jpg" height="300px" width="350px"alt="Innerwork Solution Private limited"> 
+<div>
+<form action="insert.php" method="POST" enctype="multipart/form-data">
+<table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username"  required></td>
+   </tr>
+   <tr>
+   <td>Password: </td>
+    <td><input type="text"   name ="password"required> </td>
+    </tr>
+     <tr>
+     <td>Email :</td>
+   	 <td><input type="text"  name="email"required> </td>
+   	</tr>
+    <tr>
+    <td>City :</td>
+    <td><input type="text" name="city"  required></td>
+  </tr>
+    <tr>
+    <td>Qualification :</td>
+     <td><input type="text" name="qualification"  required></td>
+  </tr>
+   	<tr>
+   	 <td>Phone no:</td>
+   	 <td><select name ="phoneCode" >
+
+   	   		<option selected hidden value="">Select Code</option>
+   	   		<option value="977">977</option>
+   	   		<option value="978">978</option>
+   	   		<option value="979">979</option>
+   	   		<option value="980">980</option>
+   	   		<option value="981">981</option>
+   	   		<option value ="982">982</option>
+   	   		<option value ="983">983</option>
+   	   	</select>
+   	   	<input type ="phone" name ="phone" required>
+        </td>
+   	</tr>
+    <td>Area of interest :</td>
+    <td><input type="text" name ="Areaofinterest" required></td>
+  </tr>
+  <tr>
+  <td>
+   <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <!-- <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label> -->
+  <tr>
+  <td>Upload your resume</td>
+  <td><input type="file" name="file" /></td></tr>
+  <tr>
+  <td>
+  <input type="Submit" value ="Submit" name="">
+  </td>
+  </tr>
+  </table>
+  </div>
+</form>
+<ul> <li><a href="https://www.innerworkindia.com/Login"><h2>Click to see the official webpage of the company<h2></a></li></ul>
+</body>
+</html>
